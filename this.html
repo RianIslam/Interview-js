@@ -7,5 +7,21 @@
 </head>
 <body>
     <h1>This is not confused anymore</h1>
+
+    <script>
+        const myObj ={
+            name : 'kuddus Ali',
+            getFullName : function(){
+                console.log(this);
+                return 'Mr '+ this.name;
+            }
+        }
+        const anotherObj = {
+            name : "hwllo",
+
+        }
+        anotherObj.getFullName = myObj.getFullName;
+        console.log(anotherObj.getFullName);
+    </script>
 </body>
 </html>
