@@ -20,8 +20,15 @@
             name : "hwllo",
 
         }
-        anotherObj.getFullName = myObj.getFullName;
-        console.log(anotherObj.getFullName);
-    </script>
+    //    anotherObj.getFullName = myObj.getFullName;
+    //     console.log(anotherObj.getFullName);
+
+
+    function add (a,b){
+        console.log(this)
+            return a+ b;
+    }
+    add(34,4)
+    </script> 
 </body>
 </html>
