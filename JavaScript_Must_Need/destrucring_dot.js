@@ -18,3 +18,10 @@ const {name,age} = {id:3,money:34,name:'rahim',age:45}
 
 console.log(name,age);
 console.log(name,age);
+
+//create object shortcut
+const one = 23;
+const two = 34;
+const obj ={x:x,y:y};
+const obj2 ={one,two};
+console.log(obj2)
