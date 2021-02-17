@@ -25,3 +25,7 @@ const two = 34;
 const obj ={x:x,y:y};
 const obj2 ={one,two};
 console.log(obj2)
+
+//new array using three dots
+
+const newNumber = [...numbers,45];
