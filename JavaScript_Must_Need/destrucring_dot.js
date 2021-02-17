@@ -12,3 +12,9 @@ function boxify(num1){
 }
 const [box1,box2] = boxify(5);
 console.log(box1,box2)
+
+// object destructing 
+const {name,age} = {id:3,money:34,name:'rahim',age:45}
+
+console.log(name,age);
+console.log(name,age);
