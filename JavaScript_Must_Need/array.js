@@ -10,5 +10,30 @@ const products = [
 //map
 const names = products.map(product => product.name);
 const prices = products.map(pd => pd.price)
-// console.log(prices);
+const price2 = products.map(pd => {
+    return pd.price;
+})
+console.log(price2)
+console.log(prices);
+//forEach
 products.forEach(product => console.log(product.name))
+
+// filter
+const cheaper = products.filter(pd =>pd.price <1000);
+console.log(cheaper)
+
+// remove an item using filter
+
+const remaing = products.filter(ps => ps.id !=3);
+console.log(remaing)
+
+//find
+const hasWatch = products.find(pd=> pd.name === "watch");
+console.log(hasWatch)
+
+// reduces
+// includes
+// push
+// pop
+// length
+// indexOf
