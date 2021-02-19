@@ -8,3 +8,10 @@ console.log(number())
 let number =()=>10;
 
 console.log(number())
+
+//multiple paramiter
+
+let num = (a,b) =>{
+    return a+b;
+}
+console.log(num(5,6))
